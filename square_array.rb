@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  output_arr = []
+  output_arr = array.each {|x| x * x}
+  output_arr
 end
